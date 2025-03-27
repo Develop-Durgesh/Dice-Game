@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @media screen and (max-width: 593px) {
+            img {
+                margin: 5px;
+                width: 90%;
+                height: 90%;
+            }
+            #headText {
+                font-size: 2.5rem;
+            }
+
+            #winner {
+                font-size: 2rem;
+                color: darkgreen;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section id="main">
+        <h1 id="headText">Lets See Who Wins!</h1>
+        <h2 id="winner">Start the Game</h2>
+        <div class="dice">
+            <div class="diceimg"><img id="dice1" src="images/dice1.png" alt=""></div>
+            <div class="diceimg"><img id="dice2" src="images/dice1.png" alt=""></div>
+        </div>
+        <button id="btn" >Click to start</button>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

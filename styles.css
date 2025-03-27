@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    background-color: #BA94D1;
+    width: 100wh;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dice {
+    display: flex;
+    justify-content: center;
+}
+
+#headText {
+    font-size: 3rem;
+}
+
+#winner {
+    font-size: 2.3rem;
+    color: darkgreen;
+}
+
+#btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid greenyellow;
+}
+
+.diceimg {
+    margin: 20px;
+}
+
+#btn {
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#btn:hover {
+    background-color: greenyellow;
+    color: indigo;
+}
+
